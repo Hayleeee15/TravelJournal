@@ -1,11 +1,11 @@
-🎇 WIP 🎇
-Travel Journal 🗺
-Overview
+# 🎇 WIP 🎇
+# Travel Journal 🗺
+## Overview
 This is a simple site for Travel Journal that is built using React
 
 Built to be responsive depending on device size.
 
-Built With
+### Built With
 🔴 React
 
 🔴 Google Fonts
@@ -18,7 +18,7 @@ Built With
 
 🔴 Flex
 
-Preview
+## Preview
 Mobile Design:
 WIP
 
@@ -28,14 +28,14 @@ WIP
 Desktop Design:
 WIP
 
-Update Progress
+## Update Progress
 
-May 31st, 2026
+### May 31st, 2026
 
 Created props within Entry.jsx
 
 
-May 30th, 2026
+### May 30th, 2026
 
 Created the files using Vite
 
