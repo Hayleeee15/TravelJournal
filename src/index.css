@@ -1,0 +1,151 @@
+:root {
+  --header-bg: lightcoral;
+  --header-color: white;
+  --link-active: lightcoral;
+  --font-color: hsla(250, 18%, 19%, 1);
+
+  /* Typography */
+  --ff: 'Inter', sans-serif;
+
+  --header-size: 1rem;
+  --header-weight: 500;
+  --header-style: medium;
+  --header-letter-spacing: -7.5%;
+
+  --entry-line-height: 100%;
+  --entry-location-size: .7rem;
+  --entry-location-weight: 400;
+  --entry-h2-letter-spacing: 17%;
+
+  --entry-h3-size: 1.5rem;
+  --entry-h3-weight: 700;
+
+  --entry-dates-size: .75rem;
+  --entry-dates-weight: 700;
+
+  --entry-p-line-height: 150%;
+  --entry-p-size: .7rem;
+  --entry-p-weight: 400;
+}
+
+/* #region Reset */
+*, *::before, *::after {
+  box-sizing: border-box;;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* #endregion */
+
+/* #region Header */
+header {
+  background-color: var(--header-bg);
+  color: var(--header-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+header img {
+  width: 2rem;
+  padding-right: .5rem;
+}
+
+header h1{
+  font-size: var(--header-size);
+  font-weight: var(--header-weight);
+  font-style: var(--header-style);
+  letter-spacing: var(--header-letter-spacing);
+}
+
+/* #endregion */
+
+body{
+  color: var(--font-color);
+  line-height: var(--entry-line-height);
+  font-family: var(--ff);
+}
+
+/* #region Entry */
+.entry {
+  margin: auto;
+  padding: 2.5rem 0;
+  display: flex;
+  width: 35rem;
+}
+
+.entry--img {
+  width: 7.75rem;
+  border-radius: .25rem;
+}
+
+.entry--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.25rem;
+}
+
+.pin {
+  width: 1.5rem;
+  padding-right: .2rem;
+}
+
+.entry--location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-bottom: 1rem;
+  font-size: var(--entry-location-size);
+  font-weight: var(--entry-location-weight);
+  
+}
+
+.entry--location h2 {
+  text-transform: uppercase;
+  letter-spacing: var(--entry-h2-letter-spacing);
+}
+
+.entry--location a {
+  padding-left: .75rem;
+  color: var(--link-active);
+}
+
+.entry--info h3 {
+  font-size: var(--entry-h3-size);
+  font-weight: var(--entry-h3-weight);
+
+  padding-bottom: 1.25rem;
+}
+
+.entry--dates {
+  font-size: var(--entry-dates-size);
+  font-weight: var(--entry-dates-weight);
+
+  padding-bottom: .5rem;
+}
+
+.entry--info p {
+  font-size: var(--entry-p-size);
+  font-weight: var(--entry-p-weight);
+  line-height: var(--entry-p-line-height);
+}
+
+/* #endregion */
