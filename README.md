@@ -30,6 +30,12 @@ WIP
 
 ## Update Progress
 
+The new variable creates a function (entry) that calls on the data within the data.js file and uses props to call them to be displayed.
+
+Created a new variable declaration within the App.jsx file
+
+Added a data.js file to pull in the data from the array
+
 ### May 31st, 2026
 
 Created props within Entry.jsx
