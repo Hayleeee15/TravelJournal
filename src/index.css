@@ -87,11 +87,13 @@ body{
   margin: auto;
   padding: 2.5rem 0;
   display: flex;
-  width: 35rem;
+  height: 15rem;
+  width: 60%;
 }
 
 .entry--img {
-  width: 7.75rem;
+  width: 12rem;
+  height: 100%;
   border-radius: .25rem;
 }
 
